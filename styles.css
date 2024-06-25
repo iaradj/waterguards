@@ -1,0 +1,265 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+}
+
+body {
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0; /* Ajuste el padding derecho e izquierdo según sea necesario */
+}
+
+header {
+    background-color: rgb(16, 89, 124);
+    color: #000;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #a2cfd5;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5a6b73;
+    color: #fff;
+}
+
+/* Imagen de fondo con texto superpuesto */
+#backimage, #backimagecontact {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+#backimage {
+    background-image: url('imagenes/_MG_0667-1.jpg');
+}
+
+#backimagecontact {
+    background-image: url('imagenes/manos.jpg');
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+.button {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #10394e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+}
+
+/* Estilos específicos de secciones */
+#home, #nosotros {
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+#home img {
+    width: 95px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.contenedorcastor {
+    background-color: #1dabb9;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.castorprincipal {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    animation: castorFloat 5s ease-in-out infinite;
+}
+
+@keyframes castorFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#somos {
+    font-weight: bolder;
+    color: #10597c;
+    display: inline;
+}
+/* Lista personalizada */
+.customlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customlist li {
+    margin-bottom: 10px;
+    padding-left: 40px;
+    line-height: 1.5;
+    background-image: url('imagenes/gotaagua.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 5px 0 5px 50px;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+    background-color: #979baa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    background-color: #1dabb9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: #155555;
+}
+
+h3 {
+    color: #265053;
+}
+
+/* Formulario de contacto */
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group button {
+    background-color: #1dabb9;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-group button:hover {
+    background-color: #10597c;
+}
+
+/* Botón de subir */
+.boton-subir {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.boton-subir:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #35424a;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
