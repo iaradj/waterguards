@@ -30,25 +30,30 @@
             <h2>Dejanos tus datos si quisieras unirte a WaterGuards! </h2>     
             <br>
             <div class="formulario">
-                <h2>Formulario de Contacto</h2>
-                <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
-                <form action="#" method="POST">
+                    <h2>Formulario de Contacto</h2>
+                <div class="form-container">
                     <div class="form-group">
                         <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+                        <input type="text"  name="nombre">
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" name="email">
                     </div>
                     <div class="form-group">
                         <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        <textarea id="mensaje" name="mensaje"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit">Enviar Mensaje</button>
+                        <button type="button">Enviar Mensaje</button>
                     </div>
-                </form>
+                </div>
+                <h3>Para comunicarte con nosotros:</h3>
+                <ul class="contactomail">
+                    <li>
+                        <a href="mailto:contacto@waterguards">contacto@waterguards.com.ar</a>
+                    </li>
+                </ul>
             </div>
         </div>  
         <footer>
