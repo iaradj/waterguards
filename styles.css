@@ -49,7 +49,6 @@ nav ul li {
     margin: 0 15px;
     display: inline-block;
 }
-
 nav ul li a {
     color: #a2cfd5;
     text-decoration: none;
@@ -58,7 +57,6 @@ nav ul li a {
     padding: 10px;
     transition: background-color 0.3s ease;
 }
-
 nav ul li a:hover {
     background-color: #5a6b73;
     color: #fff;
@@ -67,7 +65,6 @@ footer ul li {
     display: inline-block;
     list-style-type: none;
 }
-
 /* Imagen de fondo con texto superpuesto */
 #backimage, #backimagecontact {
     width: 100%;
@@ -78,15 +75,12 @@ footer ul li {
     position: relative;
     color: white;
 }
-
 #backimage {
     background-image: url('imagenes/_MG_0667-1.jpg');
 }
-
 #backimagecontact {
     background-image: url('imagenes/manos.jpg');
 }
-
 .text-overlay {
     position: absolute;
     top: 50%;
@@ -96,7 +90,6 @@ footer ul li {
     color: white;
     z-index: 10;
 }
-
 .button {
     position: absolute;
     top: 57%;
@@ -110,14 +103,12 @@ footer ul li {
     font-size: 16px;
     z-index: 10;
 }
-
 /* Estilos específicos de secciones */
 #home, #nosotros {
     text-align: center;
     padding: 20px;
     margin: 5px;
 }
-
 #home img {
     width: 95px;
     height: 100px;
@@ -128,29 +119,12 @@ footer ul li {
     background-color: #90cacf;
     padding: 20px;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+    text-align: center; }
 .castorprincipal {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
     height: auto;
-    animation: castorFloat 5s ease-in-out infinite;
-}
-
-@keyframes castorFloat {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
 .contenedor {
     max-width: 1300px; /* Ancho máximo del contenedor */
@@ -158,21 +132,17 @@ footer ul li {
     overflow: hidden; /* Evita que la imagen desborde el contenedor */
     padding: 0 20px; /* Añade relleno opcional para separar el contenido de los bordes del contenedor */
 }
-
 .castorcito {
     float: left; /* Flota la imagen a la izquierda */
     max-width: 30%; /* Ancho máximo para la imagen */
     height: auto; /* Ajuste automático de la altura */
     margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
-
 #somos {
     font-weight: bolder;
     color: #10597c;
-  
     display: inline-block;
 }
-
 #toma-accion {
     background-color: #c2cfeb;
     border-radius: 8px;
@@ -180,11 +150,9 @@ footer ul li {
     margin: 20px auto;
     text-align: left;
 }
-
 #toma-accion h3, p{
     text-align: center;
 }
-
 .action-content {
     text-align: left;
     max-width: 100%; /* Ancho máximo del contenido dentro de la sección */
@@ -192,13 +160,11 @@ footer ul li {
     padding: 0 20px; /* Añade relleno a los lados para mantener el espacio al borde */
     box-sizing: border-box; /* Incluye el relleno en el ancho total */
 }
-
 .customlist {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 .customlist li {
     margin-bottom: 10px;
     line-height: 1.6;
@@ -209,11 +175,9 @@ footer ul li {
     padding-left: 40px;
     font-size: 18px; /* Tamaño de letra aumentado a 18px */
 }
-
 #somos {
     display: inline-block;
 }
-
 section {
     margin: 10px;
     padding: 10px;
@@ -234,14 +198,12 @@ aside {
     padding: 20px;
     background-color: #ffffff;
 }
-
 #mapa{
 display: inline-block;
 vertical-align: top;
 margin: 30px;
 width: 630px;
 }
-
 #contacto-info {
     margin-top: 60px;
     width: 540px;
@@ -250,18 +212,12 @@ width: 630px;
     display: inline-block;
     vertical-align: top; /* Alinear verticalmente arriba */
 }
-
-
 #contacto-info p{
-    margin: 30px;
-}
-
+    margin: 30px;}
 #contacto-lista {
     list-style-type: none;
     padding: 0;
-
 }
-
 #contacto-lista a{
     text-decoration: none;
     color: black;
@@ -269,15 +225,11 @@ width: 630px;
 #contacto-lista li {
     line-height: 1.6;
     margin-bottom: 10px;
- 
 }
-
-
 h1 {
     text-align: center;
     margin-bottom: 15px;
 }
-
 h2 {
     color: #fff;
     background-color: #1dabb9;
@@ -286,11 +238,9 @@ h2 {
     padding: 20px;
     text-align: center;
 }
-
 h2:hover {
     background-color: #155555;
 }
-
 h3 {
     color: #265053;
 }
@@ -299,7 +249,6 @@ section p {
     display: inline-block;
     vertical-align: top;
 }
-
 .contenedormanos {
     text-align: center; /* Para alinear los elementos en el centro */
 }
@@ -312,7 +261,6 @@ section p {
     text-align: left; /* Alineación del texto a la izquierda dentro de cada elemento */
     text-align: center; /* Alineación centrada para la imagen */
 }
-
 .item img {
     max-width: 100%;
     height: auto;
@@ -326,7 +274,6 @@ section p {
     width: 300px;
     margin: 0 auto;
 }
-
 .input-field {
     width: 100%;
     padding: 10px;
@@ -335,7 +282,6 @@ section p {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .submit-btn {
     background-color: #5b5abe;
     color: white;
@@ -344,34 +290,29 @@ section p {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .submit-btn:hover {
     background-color: #0f12b4;
 }
-
 /* Main Content */
 .main-content {
     display: inline-block;
     width: 100%;
-    text-align: left; /* Alinea el contenido a la izquierda */
+    text-align: left; 
 }
-
 /* Mapa */
 .mapa-centrada {
     display: inline-block;
     vertical-align: top;
     width: calc(70% - 20px); /* Ajusta el ancho del mapa */
     margin-right: 20px;
-    text-align: center; /* Centra el contenido dentro del div */
+    text-align: center;
 }
-
 .mapa-centrada iframe {
     width: 100%;
     max-width: 600px;
     border: 0;
     border-radius: 8px;
 }
-
 /* Lista de contacto */
 .contactomail {
     display: inline-block;
@@ -384,24 +325,19 @@ section p {
     vertical-align: top;
     text-align: left; /* Alinea el texto a la izquierda */
 }
-
 .contactomail h3 {
     margin-bottom: 15px;
 }
-
 .contactomail ul {
     padding: 0;
 }
-
 .contactomail li {
     margin-bottom: 10px;
 }
-
 .contactomail a {
     color: white;
     text-decoration: none;
 }
-
 /* Botón de subir */
 .boton-subir {
     position: fixed;
@@ -420,23 +356,17 @@ section p {
 .boton-subir:hover {
     background-color: #0056b3;
 }
-
-
-
-/* Pie de página */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #35424a;
     color: #fff;
 }
-
 footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
