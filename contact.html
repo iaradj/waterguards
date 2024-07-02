@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asociación del Cuidado del Agua</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">  
 </head>
 <body>
     <div class="container">
         <header>   
-            <h1 id="logo"> <img src="imagenes/Recurso 3-100.jpg" alt="xs"> </h1>
-            <nav>
+            <h1 id="logo"> <img src="imagenes/Recurso 3-100.jpg" alt="Logo"> </h1>
+            <nav>  <a id="top"></a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
@@ -23,47 +22,53 @@
                 </ul>
             </nav> 
         </header> 
-    
- 
+      
         <div id="backimagecontact">     
-            
-            <h2>Dejanos tus datos si quisieras unirte a WaterGuards! </h2>     
-            <br>
-            <div class="formulario">
-                    <h2>Formulario de Contacto</h2>
+            <h1>Si te interesa Waterguards, acá encontras todos nuestros datos</h1>   
+            <div class="container-canal">
+                <h2>Inscríbete a nuestro canal de difusión</h2>
+                <p>Ingresa tu correo:</p>
                 <div class="form-container">
-                    <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text"  name="nombre">
+                    <div class="input-field">
+                        <input type="email" class="input-field" placeholder="Correo electrónico" required>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="button">Enviar Mensaje</button>
+                    <div class="submit-btn">
+                        <button type="button" class="submit-btn">Enviar</button>
                     </div>
                 </div>
-                <h3>Para comunicarte con nosotros:</h3>
-                <ul class="contactomail">
-                    <li>
-                        <a href="mailto:contacto@waterguards">contacto@waterguards.com.ar</a>
-                    </li>
-                </ul>
             </div>
-        </div>  
+            <br>
+            <section id="contacto">
+                <div id="mapa">
+                    <h2>Nuestra sede principal
+                    </h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26269.913600925123!2d-59.16198640000001!3d-37.3204618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b1ebbb2a86ab1%3A0x17e30a5de0eac130!2sDique%20de%20Tandil!5e0!3m2!1ses-419!2sar!4v1689191847315!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <address id="contacto-info">
+                   <h2>Contacto</h2>
+                   <br>
+                    <ul id="contacto-lista"> 
+                        <li><a href="tel:+23423444"><span class="ic--outline-call"></span>+23443444 </a></li>
+                        <li><a href="https://www.google.com.ar/maps/place/Dique+del+Fuerte/@-37.3402558,-59.1084398,14.32z/data=!4m6!3m5!1s0x95911fb6f8591bc7:0xb1ccfe482860b1b9!8m2!3d-37.3428727!4d-59.1301286!16s%2Fg%2F11btwk1sxr?entry=ttu" target="_blank"><span class="ic--outline-place"></span>Dique del Fuerte, Tandil</a></li>
+                       
+                        <li><a href="mailto:contacto@waterguards.com.ar"><span class="ic--outline-mail-outline"></span>contacto@waterguards.com.ar</a></li>
+                    </ul>
+                    </address>
+                 
+            </section>
+        </main>
+    </section>
+    <a href="#top" class="boton-subir">⬆</a>
         <footer>
             <p>Síguenos en:</p>
-            <a href="https://facebook.com" target="_blank">Facebook</a> |
-            <a href="https://twitter.com" target="_blank">Twitter</a> |
-            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <ul class="social-media">
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
             <p>&copy; 2024 Cuidado del Agua. Todos los derechos reservados.</p>
-        </footer>
+        </footer>     
     </div>
-   
+    </div>  
 </body>
-       
+</html>
